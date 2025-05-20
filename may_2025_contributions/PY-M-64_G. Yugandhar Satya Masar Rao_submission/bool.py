@@ -1,0 +1,5 @@
+is_student=input("Are you a Student, True / False :")
+is_talented=input("Are your talented, True / False :")
+print("Is he eligible for Crash course",is_student and is_talented)
+print("Is he eligible for next class",is_student or is_talented)
+print(" You are parent", not is_student)
